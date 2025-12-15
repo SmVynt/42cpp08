@@ -6,7 +6,7 @@
 /*   By: psmolin <psmolin@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/15 13:47:57 by psmolin           #+#    #+#             */
-/*   Updated: 2025/12/15 15:15:24 by psmolin          ###   ########.fr       */
+/*   Updated: 2025/12/15 15:17:50 by psmolin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,4 +52,14 @@ int main()
 	}
 
 	return 0;
+
+	// Span sp = Span(5);
+	// sp.addNumber(6);
+	// sp.addNumber(3);
+	// sp.addNumber(17);
+	// sp.addNumber(9);
+	// sp.addNumber(11);
+	// std::cout << sp.shortestSpan() << std::endl;
+	// std::cout << sp.longestSpan() << std::endl;
+	// return 0;
 }
