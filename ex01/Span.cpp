@@ -6,7 +6,7 @@
 /*   By: psmolin <psmolin@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/15 14:23:12 by psmolin           #+#    #+#             */
-/*   Updated: 2025/12/15 15:13:41 by psmolin          ###   ########.fr       */
+/*   Updated: 2025/12/15 15:47:35 by psmolin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,7 @@ void	Span::addNumber(int number)
 	}
 	_numbers.push_back(number);
 };
+
 long long	Span::shortestSpan() const
 {
 	if (_numbers.size() < 2)
@@ -79,7 +80,6 @@ long long	Span::longestSpan() const
 		throw NotEnoughNumbersException();
 	return (static_cast<long long>(_max) - static_cast<long long>(_min));
 };
-
 
 //EXCEPTIONS
 const char * Span::SpanFullException::what() const noexcept
